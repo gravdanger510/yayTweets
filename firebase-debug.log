@@ -1,61 +1,41 @@
-[debug] [2018-05-09T04:00:07.972Z] ----------------------------------------------------------------------
-[debug] [2018-05-09T04:00:07.975Z] Command:       /Users/tylermitchell/.asdf/installs/nodejs/7.10.0/bin/node /Users/tylermitchell/.asdf/installs/nodejs/7.10.0/.npm/bin/firebase init
-[debug] [2018-05-09T04:00:07.975Z] CLI Version:   3.18.4
-[debug] [2018-05-09T04:00:07.975Z] Platform:      darwin
-[debug] [2018-05-09T04:00:07.975Z] Node Version:  v7.10.0
-[debug] [2018-05-09T04:00:07.975Z] Time:          Tue May 08 2018 21:00:07 GMT-0700 (PDT)
-[debug] [2018-05-09T04:00:07.975Z] ----------------------------------------------------------------------
+[debug] [2018-05-17T01:04:59.333Z] ----------------------------------------------------------------------
+[debug] [2018-05-17T01:04:59.336Z] Command:       /Users/tylermitchell/.asdf/installs/nodejs/7.10.0/bin/node /Users/tylermitchell/.asdf/installs/nodejs/7.10.0/.npm/bin/firebase serve
+[debug] [2018-05-17T01:04:59.337Z] CLI Version:   3.18.4
+[debug] [2018-05-17T01:04:59.337Z] Platform:      darwin
+[debug] [2018-05-17T01:04:59.337Z] Node Version:  v7.10.0
+[debug] [2018-05-17T01:04:59.337Z] Time:          Wed May 16 2018 18:04:59 GMT-0700 (PDT)
+[debug] [2018-05-17T01:04:59.337Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-05-09T04:00:07.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
-[debug] [2018-05-09T04:00:07.984Z] > authorizing via signed-in user
-[info] 
-     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
-     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
-     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
-     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
-     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
-
-You're about to initialize a Firebase project in this directory:
-
-  /Users/tylermitchell/Sites/yay-tweets
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2018-05-09T04:00:27.060Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-05-09T04:00:27.060Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-05-17T01:04:59.354Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-17T01:04:59.355Z] > authorizing via signed-in user
+[debug] [2018-05-17T01:04:59.357Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-17T01:04:59.357Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  { refresh_token: '1/lP--A64arNcgAnB6N_82LvCY1lvuibXcM6c8XE8aBJGVpL-qOO2pmzDSaSd_NRS6',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Tue May 08 2018 21:00:27 GMT-0700 (PDT)
-[debug] [2018-05-09T04:00:27.276Z] <<< HTTP RESPONSE 200
-[debug] [2018-05-09T04:00:27.302Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed May 16 2018 18:04:59 GMT-0700 (PDT)
+[debug] [2018-05-17T01:04:59.584Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-17T01:04:59.613Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/yay-tweets  
   
- Tue May 08 2018 21:00:27 GMT-0700 (PDT)
-[debug] [2018-05-09T04:00:27.767Z] <<< HTTP RESPONSE 200
-[info] 
-=== Database Setup
-[info] 
-[info] Firebase Realtime Database Rules allow you to define how your data should be
-[info] structured and when your data can be read from and written to.
-[info] 
-[debug] [2018-05-09T04:00:36.703Z] >>> HTTP REQUEST GET https://yay-tweets.firebaseio.com/.settings/rules.json  
+ Wed May 16 2018 18:04:59 GMT-0700 (PDT)
+[debug] [2018-05-17T01:05:00.226Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-17T01:05:00.228Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/yay-tweets/tokens  
   
- Tue May 08 2018 21:00:36 GMT-0700 (PDT)
-[debug] [2018-05-09T04:00:37.179Z] <<< HTTP RESPONSE 200
-[info] ✔  Database Rules for yay-tweets have been downloaded to database.rules.json.
-[info] Future modifications to database.rules.json will update Database Rules when you run
-[info] firebase deploy.
+ Wed May 16 2018 18:05:00 GMT-0700 (PDT)
+[debug] [2018-05-17T01:05:00.670Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-17T01:05:00.671Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/yay-tweets  
+  
+ Wed May 16 2018 18:05:00 GMT-0700 (PDT)
+[debug] [2018-05-17T01:05:01.225Z] <<< HTTP RESPONSE 200
 [info] 
-=== Hosting Setup
+[info] === Serving from '/Users/tylermitchell/Sites/yay-tweets'...
 [info] 
-[info] Your public directory is the folder (relative to your project directory) that
-[info] will contain Hosting assets to be uploaded with firebase deploy. If you
-[info] have a build process for your assets, use your build's output directory.
-[info] 
+[debug] [2018-05-17T01:05:01.228Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/240663594792/clients/_:getWebAppConfig  
+  
+ Wed May 16 2018 18:05:01 GMT-0700 (PDT)
+[debug] [2018-05-17T01:05:01.644Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
+

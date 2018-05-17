@@ -1,0 +1,26 @@
+---
+title: Remove Number
+---
+
+<h2>Remove</h2>
+
+<p class="fine-print">We won't do anything shady with your data. Check out our <a href='terms' target='_blank'>terms of service.</a></p>
+
+<h2>Wanna take your number off the list?</h2>
+<form id="removeForm">
+  <label for="phone-remove"></label>
+  <input type="tel" name="phone-remove" placeholder="(281) 330-8004"/>
+  <button type="submit">Remove</button>
+</form>
+
+<script>
+  var addForm = document.getElementById('removeForm');
+
+  addForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    removeNum(e.target.elements['phone-remove'].value);
+    alert("No hard feelings, we'll take this number off the list. Heads up, it'll take a few days for this to process.");
+    e.target.elements['phone-remove'].value = "";
+  });
+
+</script>
